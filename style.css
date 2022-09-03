@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+}
+
+/* ---------------------------------nav-bar------------------------------ */
+/* ---------------------------------nav-bar------------------------------ */
+/* ---------------------------------nav-bar------------------------------ */
+
+#logo img{
+    height:10vh;
+    /* width: 30vw; */
+    margin-top:2vh;
+    margin-bottom:5vh;
+    object-fit: cover;
+}
+
+#navbar{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+#search-engine{
+    margin-top:5vh;
+    margin-right:10vw;
+}
+
+
+#search{
+    height:5vh;
+    width:20vw;
+    /* border-radius: /; */
+    border:none;
+    background-color: black;
+    color:white;
+    border-bottom:solid white;
+    font-family: 'poppins',sans-serif;
+    font-weight: 100;
+    font-size:3vh;
+}
+
+#search:focus{
+    border:none;
+    border-bottom:solid white;
+    outline-width: 0;
+}
+
+#search-engine{
+    display: flex;
+    flex-direction:row;
+}
+
+#search-button{
+    /* margin-top:5vh; */
+    /* padding-top:3vh; */
+    background-color: transparent;
+    border:none;
+
+    /* border:white 2px solid;
+    border-radius: 50%; */
+    /* align-self: bottom; */
+    
+}
+
+.material-symbols-outlined{
+    color:white;
+    padding:5px;
+    font-weight: 100;
+    font-size: 7vh;
+    padding-top: 1.5vh;
+    /* height:5vh; */
+    
+    /* height:5vh; */
+}
+
+
+/* ---------------------------------super image------------------------------ */
+/* ---------------------------------super image------------------------------ */
+/* ---------------------------------super image------------------------------ */
+
+#content-view{
+    margin-top:5vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:start;
+}
+
+#super-image img{
+    /* float:right; */
+    height:60vh;
+    margin-left:5vw;
+    
+}
+
+#super-data{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#super-name p{
+    font-family: 'poppins',sans-serif;
+    font-weight: 100;
+    font-size: 5vh;
+    margin-left:5vw;
+    margin-right:auto;
+}
+
+
+#biography{
+    margin-top:5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+
+#bio-left{
+    font-family: 'poppins',sans-serif;
+    font-weight:100;
+    font-size:1.2rem;
+    margin-left:5vw;
+
+}
+
+#bio-right{
+    font-family: 'poppins',sans-serif;
+    font-weight:100;
+    font-size:1.2rem;
+    text-align: right;
+    margin-left:20vw;
+    /* float: right; */
+    
+}
