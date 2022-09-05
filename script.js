@@ -13,6 +13,7 @@ button.onclick = () =>{
     fetch(`https://superheroapi.com/api.php/3179832135614819/search/${hero.value}`)
     .then(response=>response.json())
     .then(json => Caller(json))
+    .catch(named.innerHTML=`<p>Doesn't work on NSUT network.</p><p>Shift to personal Hotspot</p>`)
    
 }
 
