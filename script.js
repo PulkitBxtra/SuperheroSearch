@@ -10,7 +10,7 @@ var search=document.getElementById('search');
 button.onclick = () =>{
     console.log(hero.value);
 
-    fetch(`https://superheroapi.com/api.php/3179832135614819/search/${hero.value}`)
+    fetch(`https://www.superheroapi.com/api.php/3179832135614819/search/${hero.value}`)
     .then(response=>response.json())
     .then(json => Caller(json))
     .catch(named.innerHTML=`<p>Doesn't work on NSUT network.</p><p>Shift to personal Hotspot</p>`,
@@ -26,7 +26,7 @@ search.addEventListener('keypress',(event) =>{
     if(event.key=='Enter'){
         console.log(hero.value);
 
-        fetch(`https://superheroapi.com/api.php/3179832135614819/search/${hero.value}`)
+        fetch(`https://www.superheroapi.com/api.php/3179832135614819/search/${hero.value}`)
         .then(response=>response.json())
         .then(json => Caller(json))
        
@@ -55,7 +55,7 @@ function Caller(json_id){
 
 
 function Image(image_id){
-    fetch(`https://superheroapi.com/api.php/3179832135614819/${image_id}/image`)
+    fetch(`https://www.superheroapi.com/api.php/3179832135614819/${image_id}/image`)
     .then( response => response.json())
     .then(json => {
         console.log(json) 
